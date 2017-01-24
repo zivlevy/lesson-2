@@ -1,0 +1,21 @@
+{
+  "name": "el-leaflet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "leaflet-draw": "^0.4.9",
+    "reload": "^1.1.0",
+    "ts-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "reload": "^1.1.0"
+  },
+  "scripts": {
+    "onchange": "onchange src/**/*.* -- npm run move",
+    "dev": "reload -b -d dist| tsc -w| npm run onchange",
+    "move": "cp src/*.css dist && cp src/*.html dist "
+  },
+  "author": "",
+  "license": "ISC"
+}

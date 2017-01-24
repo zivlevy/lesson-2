@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#myHeader {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+#map {
+    height: calc(100% - 70px);
+}
