@@ -10,7 +10,6 @@
   },
   "scripts": {
     "start": "reload -b -d src & tsc -w"
-
   },
   "author": "",
   "license": "ISC"
