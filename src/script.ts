@@ -1,5 +1,5 @@
 
-let mymap = L.map('map').setView([32.7859, 34.9614], 18); //coordinates of elbit
+let mymap:L.Map = L.map('map').setView([32.7859, 34.9614], 18); //coordinates of elbit
 let isGoogle: boolean = false; //when google map is shown
 
 let OpenStreetMapLayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
