@@ -9,7 +9,7 @@
     "reload": "^1.1.0"
   },
   "scripts": {
-    "start": "reload -b -d src & tsc -w"
+    "start": "reload -b -d src & tsc **/*.ts -w"
   },
   "author": "",
   "license": "ISC"
