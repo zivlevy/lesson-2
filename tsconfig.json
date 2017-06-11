@@ -4,10 +4,6 @@
         "target": "es6",
         "noImplicitAny": false,
         "sourceMap": true,
-        "outDir": "ts-built",
         "rootDir": "src"
-    },
-    "include": [
-        "src"
-    ]
+    }
 }
