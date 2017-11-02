@@ -3,9 +3,7 @@
         "module": "commonjs",
         "target": "es6",
         "noImplicitAny": false,
-        "sourceMap": true
-    },
-    "include": [
-        "src"
-    ]
+        "sourceMap": true,
+        "rootDir": "src"
+    }
 }
