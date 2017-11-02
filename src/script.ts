@@ -36,4 +36,3 @@ OpenStreetMapLayer.addTo(mymap);
 mymap.on('click',(e:L.LeafletMouseEvent)=>{toggleLayer(e)});
 mymap.on('mousemove', mapmousemove);
 
-
